@@ -53,5 +53,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent )
 
         }
+
+        offersButton.setOnClickListener {
+            val text = "Hello"
+        }
     }
 }
