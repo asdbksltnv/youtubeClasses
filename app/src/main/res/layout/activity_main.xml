@@ -4,12 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F3E6D4"
-
-    android:backgroundTint="#F6E4E4"
     tools:context=".MainActivity">
 
-    <ImageView
+
+<ImageView
         android:id="@+id/imageView2"
         android:layout_width="226dp"
         android:layout_height="284dp"
@@ -26,8 +24,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="72dp"
-        android:background="#C38888"
-        android:backgroundTint="@color/orange"
+
+        android:backgroundTint="@color/grey"
         android:text="register"
         android:textColor="#FFFCFC"
         android:textColorHighlight="#393333"
@@ -42,6 +40,7 @@
         android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/grey"
         android:text="login"
         app:layout_constraintEnd_toEndOf="@+id/register"
         app:layout_constraintHorizontal_bias="0.555"
